@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+        
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #d6d6d6;
+        }
+
+        header {
+            margin-top: 50px;
+            
+            padding: 20px;
+
+            justify-content: center;
+            text-align: center;
+        }
+
+        .flex {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        h1,
+        h2 {
+            margin-top: 0;
+        }
+
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #fff;
+            border: 2px solid black;
+            width: 40%;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .skills ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .skills li {
+            margin-bottom: 5px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        #project-sec {
+            border: 0;
+            text-align: center;
+
+            width: 95%;
+        }
+        .projectflex{
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .projectflex section{
+            margin-bottom: 20px;
+            width: 350px;
+
+        }
+        
+        .plain{
+            margin: 40px;
+        }
+        #about, #skills{
+            border: 0px;
+            box-shadow: 10px 10px 10px grey;
+            border-radius: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mustufa Ansari</h1>
+        <p>Web Developer</p>
+    </header>
+
+    <div class="flex">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello, I'm Mustufa Ansari, a passionate web developer with experience in HTML, CSS, and JavaScript.</p>
+        </section>
+
+        <section class="skills" id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>Responsive Design</li>
+                <li>Bootstrap</li>
+                <li>Git</li>
+            </ul>
+        </section>
+
+    </div>
+
+    <section id="project-sec">
+        <h2>Projects</h2>
+        <div class="projectflex">
+            <section id="projects">
+                <div class="project">
+                    <h3>HTML E-Commerce Website</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum necessitatibus quas reprehenderit
+                        aut, consequatur perspiciatis unde distinctio beatae eos eius. Architecto fugit quos aliquid
+                        corporis iusto repellendus dolore recusandae autem.</p>
+                    <a href="#">View Project</a>
+                </div>
+            </section>
+            <section id="projects">
+                <div class="project">
+                    <h3>CSS Flexbox</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum necessitatibus quas reprehenderit
+                        aut, consequatur perspiciatis unde distinctio beatae eos eius. Architecto fugit quos aliquid
+                        corporis iusto repellendus dolore recusandae autem.</p>
+                    <a href="#">View Project</a>
+                </div>
+            </section>
+            <section id="projects">
+                <div class="project">
+                    <h3>College Website</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum necessitatibus quas reprehenderit
+                        aut, consequatur perspiciatis unde distinctio beatae eos eius. Architecto fugit quos aliquid
+                        corporis iusto repellendus dolore recusandae autem.</p>
+                    <a href="#">View Project</a>
+                </div>
+            </section>
+        </div>
+    </section>
+
+<hr>
+<div class="plain">
+    <h2>Contact</h2>
+    <p>Email: mustufa@example.com</p>
+    <p>Phone: +1234567890</p>
+    <p>LinkedIn: <a href="#">Mustufa Ansari</a></p>
+
+</div>
+
+
+
+    <footer>
+        <p>&copy; 2024 Mustufa Ansari - Portfolio</p>
+    </footer>
+</body>
+
+</html>
